@@ -34,12 +34,12 @@
   },
   "name":"LD57",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"r_MainMenu","path":"rooms/r_MainMenu/r_MainMenu.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"r_MainMenu","path":"rooms/r_MainMenu/r_MainMenu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
