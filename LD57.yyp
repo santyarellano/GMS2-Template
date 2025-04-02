@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,7 +34,12 @@
   },
   "name":"LD57",
   "resources":[
+    {"id":{"name":"f_bytesized","path":"fonts/f_bytesized/f_bytesized.yy",},},
+    {"id":{"name":"f_press_start","path":"fonts/f_press_start/f_press_start.yy",},},
+    {"id":{"name":"o_setup","path":"objects/o_setup/o_setup.yy",},},
+    {"id":{"name":"o_ui_mgr","path":"objects/o_ui_mgr/o_ui_mgr.yy",},},
     {"id":{"name":"r_MainMenu","path":"rooms/r_MainMenu/r_MainMenu.yy",},},
+    {"id":{"name":"scr_ui_helpers","path":"scripts/scr_ui_helpers/scr_ui_helpers.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
