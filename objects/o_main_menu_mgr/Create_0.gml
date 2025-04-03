@@ -1,7 +1,5 @@
-// Window dimensions
-var d_width = window_get_width();
-var d_height = window_get_height();
 
+// UI data
 ui_data = [
 	{
 		type: UI_TYPE.Text,
@@ -11,8 +9,8 @@ ui_data = [
 		h_align: fa_center,
 		v_align: fa_middle,
 		color: c_white,
-		pos_x: d_width/2,
-		pos_y: d_height/2  - d_height/10
+		pos_x: global.w_width/2,
+		pos_y: global.w_height/2  - global.w_height/10
 	},
 	{
 		type: UI_TYPE.Text,
@@ -22,7 +20,7 @@ ui_data = [
 		h_align: fa_center,
 		v_align: fa_middle,
 		color: c_white,
-		pos_x: d_width/2,
-		pos_y: d_height/2 + d_height/20
+		pos_x: global.w_width/2,
+		pos_y: global.w_height/2 + global.w_height/20
 	},
 ];
