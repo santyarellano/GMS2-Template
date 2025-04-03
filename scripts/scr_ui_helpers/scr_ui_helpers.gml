@@ -10,7 +10,7 @@ function draw_ui_text(ui_text) {
 }
 
 /// Draw UI data
-function draw_ui_data(ui_data){
+function draw_ui_data(ui_data) {
 	switch (ui_data.type) {
 		case UI_TYPE.Text:
 			draw_ui_text(ui_data);
@@ -23,4 +23,13 @@ function draw_ui_data(ui_data){
 		default:
 		break;
 	}
+}
+
+/// Get UI data from obj
+function get_ui_data(obj) {
+	if instance_exists(obj) {
+		return obj.ui_data;
+	}
+	
+	return [];
 }

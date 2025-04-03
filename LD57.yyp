@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"f_bytesized","path":"fonts/f_bytesized/f_bytesized.yy",},},
     {"id":{"name":"f_press_start","path":"fonts/f_press_start/f_press_start.yy",},},
+    {"id":{"name":"o_main_menu_mgr","path":"objects/o_main_menu_mgr/o_main_menu_mgr.yy",},},
     {"id":{"name":"o_setup","path":"objects/o_setup/o_setup.yy",},},
     {"id":{"name":"o_ui_mgr","path":"objects/o_ui_mgr/o_ui_mgr.yy",},},
     {"id":{"name":"r_MainMenu","path":"rooms/r_MainMenu/r_MainMenu.yy",},},
