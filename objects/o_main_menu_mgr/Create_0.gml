@@ -24,3 +24,7 @@ ui_data = [
 		pos_y: global.w_height/2 + global.w_height/20
 	},
 ];
+
+selected_alpha = 1.0;
+min_alpha = 0.5;
+fade_speed = 0.6;

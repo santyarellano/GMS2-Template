@@ -6,6 +6,11 @@ function draw_ui_text(ui_text) {
 	draw_set_halign(ui_text.h_align);
 	draw_set_valign(ui_text.v_align);
 	
+	// check for alpha
+	if variable_struct_exists(ui_text, "alpha") {
+		draw_set_alpha(ui_text.alpha);	
+	}
+	
 	draw_text_transformed(ui_text.pos_x, ui_text.pos_y, ui_text.text_val, ui_text.scale, ui_text.scale, 0);
 }
 
