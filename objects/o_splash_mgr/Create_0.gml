@@ -12,3 +12,7 @@ ui_data = [
 		pos_y: global.w_height/2
 	}
 ];
+
+var duration_secs = 2;
+alarm[0] = game_get_speed(gamespeed_fps) * duration_secs;
+start_fade_out();
