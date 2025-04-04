@@ -3,7 +3,7 @@ s_idle = s_burt_idle;
 s_walk = s_burt_walk;
 
 // valules
-walk_speed = 2;
+walk_speed = 1;
 
 // input (range 0..1)
 in_left = 0;
