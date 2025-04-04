@@ -1,6 +1,6 @@
 // Initialize game settings
 global.GAME_TITLE = "LD Game";
-global.STUDIO_NAME = "<Untitled>\nStudio";
+global.STUDIO_NAME = "<Untitled>\nGames";
 
 // Window dimensions
 global.w_width = window_get_width();
