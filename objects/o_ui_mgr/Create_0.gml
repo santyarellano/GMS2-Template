@@ -16,5 +16,5 @@ ui_data = [];
 // Transition data
 transition_state = TRANSITION_STATE.OFF;
 transition_val = 0;
-transition_speed = 0.01;
+transition_speed = 0.02;
 transition_color = c_black;
